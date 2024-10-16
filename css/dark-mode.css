@@ -1,0 +1,34 @@
+:root:has(.mode:checked) {
+  /* Font Colors */
+  --font-light-color-black: #ffffff;
+  --font-light-color-black-1: #ffffff;
+  --font-light-color-black-2: #ffffff;
+  --font-light-color-gray-1: #9f9f9f;
+  --font-light-color-gray-3: #9f9f9f;
+
+  /* Background Colors */
+  --bg-light-color-white: #171717;
+  --bg-light-color-gray-1: #252525;
+  --bg-light-color-red: #c17e1f;
+  --bg-light-color-hover-red: #d78c23;
+}
+
+:root:has(.mode:checked) body {
+  background-color: #202020;
+}
+
+:root:has(.mode:checked) .mode-group .dark {
+  display: none;
+}
+
+:root:has(.mode:checked) .mode-group .light {
+  display: block;
+}
+
+body:has(.mode:checked) nav .nav-links a:hover {
+  color: #fff;
+}
+
+:root:has(.mode:checked) .card-img::before {
+  background-image: url(https://routeegy.github.io/Mealify/assets/img/team-shape-dark.svg);
+}

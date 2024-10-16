@@ -1,0 +1,521 @@
+/* Extra small devices */
+
+@media only screen and (max-width: 600px) {
+  /* __________Navbar Styles____________ */
+
+  .navbar .container {
+    padding: 5px;
+    width: 95%;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ____________Header Styles________________ */
+
+  .home .container {
+    width: 95%;
+  }
+
+  .home .container > * {
+    width: 100%;
+  }
+
+  .home-img {
+    order: 1;
+    margin: auto;
+  }
+
+  .home-content {
+    order: 2;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+
+  /* _____________Chefs Styles_________________ */
+  .chefs .container {
+    width: 95%;
+  }
+
+  .chefs-cards {
+    row-gap: 50px;
+    justify-content: center;
+  }
+
+  .chef-card {
+    width: 99%;
+  }
+
+  /* _______________Gallery Styles________________ */
+  .gallery .container {
+    width: 95%;
+  }
+
+  .gallery-images {
+    height: auto;
+  }
+
+  .gallery-image {
+    width: 99%;
+  }
+
+  .gallery-image:nth-of-type(1) {
+    order: 1;
+    height: auto;
+  }
+
+  .gallery-image:nth-of-type(2) {
+    order: 3;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(3) {
+    order: 5;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(4) {
+    order: 4;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(5) {
+    order: 2;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(6) {
+    order: 6;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(7) {
+    order: 7;
+    height: auto;
+  }
+
+  /* _________________Contact Style__________________ */
+  .contact .container {
+    width: 95%;
+  }
+
+  .contact-details > * {
+    width: 99%;
+  }
+
+  .input-group input {
+    width: 99%;
+  }
+
+  /* ______________Footer Styles_____________ */
+  .footer .container {
+    width: 95%;
+  }
+
+  .about {
+    width: 99%;
+  }
+
+  .about div h2 {
+    margin-right: 70%;
+  }
+
+  .subscribe {
+    width: 99%;
+  }
+
+  .quick-links ul li {
+    width: 47%;
+  }
+
+  .contact-us {
+    width: 99%;
+  }
+}
+
+/* ___________Small devices_______________ */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* __________Navbar Styles____________ */
+
+  .navbar .container {
+    width: 90%;
+  }
+
+  /* ____________Header Styles________________ */
+  .home .container {
+    width: 90%;
+  }
+
+  .home .container > * {
+    width: 100%;
+  }
+
+  .home-img {
+    order: 1;
+    margin: auto;
+  }
+
+  .home-content {
+    order: 2;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+
+  /* _____________Chefs Styles_________________ */
+  .chefs .container {
+    width: 90%;
+  }
+
+  .chefs-cards {
+    row-gap: 50px;
+    justify-content: center;
+  }
+
+  .chef-card {
+    width: 90%;
+  }
+
+  /* _______________Gallery Styles________________ */
+  .gallery .container {
+    width: 90%;
+  }
+
+  .gallery-images {
+    align-items: center;
+    height: auto;
+  }
+
+  .gallery-image {
+    width: 90%;
+  }
+
+  .gallery-image:nth-of-type(1) {
+    order: 1;
+    height: auto;
+  }
+
+  .gallery-image:nth-of-type(2) {
+    order: 3;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(3) {
+    order: 5;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(4) {
+    order: 4;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(5) {
+    order: 2;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(6) {
+    order: 6;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(7) {
+    order: 7;
+    height: auto;
+  }
+
+  /* _________________Contact Style__________________ */
+  .contact .container {
+    width: 85%;
+  }
+
+  .contact-details > * {
+    width: 100%;
+  }
+
+  .input-group input {
+    width: 100%;
+  }
+
+  /* ______________Footer Styles_____________ */
+  .footer .container {
+    width: 85%;
+  }
+
+  .about {
+    width: 99%;
+  }
+
+  .about div h2 {
+    margin-right: 70%;
+  }
+
+  .subscribe {
+    width: 99%;
+  }
+
+  .quick-links ul li {
+    width: 47%;
+  }
+
+  .contact-us {
+    width: 99%;
+  }
+}
+
+/* __________Medium devices (landscape tablets)____________ */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* ____________Header Styles________________ */
+  .home .container {
+    width: 80%;
+  }
+
+  .home .container > * {
+    width: 100%;
+  }
+
+  .home-img {
+    order: 1;
+    margin: auto;
+  }
+
+  .home-content {
+    order: 2;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+
+  /* _____________Chefs Styles_________________ */
+  .chefs .container {
+    width: 80%;
+  }
+
+  .chefs-cards {
+    row-gap: 50px;
+    justify-content: flex-start;
+  }
+
+  .chef-card {
+    width: 47%;
+  }
+
+  /* _______________Gallery Styles________________ */
+  .gallery .container {
+    width: 90%;
+  }
+
+  .gallery-images {
+    align-items: center;
+    height: auto;
+    width: 100%;
+    height: 1600px;
+  }
+
+  .gallery-image {
+    width: 48%;
+  }
+
+  .gallery-image:nth-of-type(1) {
+    order: 1;
+    height: auto;
+  }
+
+  .gallery-image:nth-of-type(2) {
+    order: 3;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(3) {
+    order: 5;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(4) {
+    order: 4;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(5) {
+    order: 2;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(6) {
+    order: 6;
+    height: auto;
+  }
+  .gallery-image:nth-of-type(7) {
+    order: 7;
+    height: auto;
+  }
+
+  /* _________________Contact Style__________________ */
+  .contact .container {
+    width: 80%;
+  }
+
+  .contact-details > * {
+    width: 100%;
+  }
+
+  .input-group input {
+    width: 100%;
+  }
+
+  .contact-details > * {
+    width: 48%;
+  }
+
+  /* ______________Footer Styles_____________ */
+  .footer .container {
+    width: 80%;
+  }
+
+  .about {
+    width: 48%;
+    order: 1;
+  }
+
+  .about div h2 {
+    margin-right: 70%;
+  }
+
+  .subscribe {
+    width: 99%;
+    order: 3;
+  }
+
+  .quick-links ul li {
+    width: 47%;
+  }
+
+  .contact-us {
+    width: 48%;
+    order: 2;
+  }
+}
+
+/* ____________Large devices (laptops/desktops)______________ */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  /* ____________Header Styles________________ */
+  .btn-main {
+    padding: 10px 15px;
+  }
+
+  /* _____________Chefs Styles_________________ */
+
+  .chef-card {
+    width: 31%;
+  }
+
+  /* _______________Gallery Styles________________ */
+
+  .gallery-images {
+    align-items: center;
+    height: auto;
+    width: 100%;
+    height: 845px;
+  }
+
+  .gallery-image {
+    width: 32%;
+  }
+
+  .gallery-image:nth-of-type(1) {
+    height: auto;
+  }
+
+  .gallery-image:nth-of-type(2) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(3) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(4) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(5) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(6) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(7) {
+    height: auto;
+  }
+
+  /* _________________Contact Style__________________ */
+
+  .contact-details > * {
+    width: 100%;
+  }
+
+  /* ______________Footer Styles_____________ */
+
+  .about {
+    width: 48%;
+    order: 1;
+  }
+
+  .about div h2 {
+    margin-right: 70%;
+  }
+
+  .subscribe {
+    width: 99%;
+    order: 3;
+  }
+
+  .quick-links ul li {
+    width: 47%;
+  }
+
+  .contact-us {
+    width: 48%;
+    order: 2;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  /* _____________Chefs Styles_________________ */
+
+  .chef-card {
+    width: 31%;
+  }
+
+  /* ______________Gallery Styles_______________ */
+
+  .gallery-images {
+    align-items: center;
+    height: auto;
+    width: 100%;
+    height: 1000px;
+  }
+
+  .gallery-image {
+    width: 32%;
+  }
+
+  .gallery-image:nth-of-type(1) {
+    height: auto;
+  }
+
+  .gallery-image:nth-of-type(2) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(3) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(4) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(5) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(6) {
+    height: auto;
+  }
+  .gallery-image:nth-of-type(7) {
+    height: auto;
+  }
+}
